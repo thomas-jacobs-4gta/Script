@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+style>
+
+
+* {
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body {
+    background-color: aquamarine;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 150%;
+}
+header {
+    background-color: aqua;
+    padding: 10px;
+}
+header nav li {
+    display: inline;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 150px;
+}
+header input {
+    padding: 4px;
+    border-radius: 20px;
+    width: 100px;
+}
+header i {
+    margin-left: 1.5ch;
+    font-size: 1.1rem;
+}
+video {
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
+img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 5 / 6;
+    object-fit: cover;
+}
+main {
+    font-size: 81%;
+}
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 18%;
+}
+.flex-item figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    font-size:large;
+    background-color: hsl(0, 0%, 97%);
+    padding: 7px 14px;
+    border-radius: 50px;
+}
+.flex-item figcaption:hover {
+    background-color: hsl(0, 0%, 87%);
+}
+/*Membership sectie*/
+.membership h2 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.membership p {color: hsl(0, 0%, 31%);}
+.memberinfo {display: flex;}
+.memberfoto {
+    padding: 10px;
+    margin: auto 1rem auto 3rem;
+    width: 30%;
+}
+.membership figcaption {
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    font-size: large;
+}
+.membertext {padding-left: 10px;}
+.membertext p {font-size: larger;}
+.membertext h2 {margin-left: 0;}
+.membertext button {
+    margin: 1rem 0;
+    font-size:larger;
+    background-color: hsl(0, 0%, 11%);
+    border: 0;
+    color: hsl(0, 0%, 97%);
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.membertext button:hover {
+    background-color: hsl(0, 0%, 80%);
+    color: hsl(0, 0%, 11%);
+}

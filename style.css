@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(108, 108, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+#about {
+    display: flex;
+
+}
+.col {
+    border: 1px solid rgb(255, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    background-color: aqua;
+}
+a:hover{
+    background-color: black;
+}
+footer{
+    background-color: aquamarine;
+}
