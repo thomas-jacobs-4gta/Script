@@ -115,3 +115,25 @@ figcaption {
     background-color: hsl(0, 0%, 80%);
     color: hsl(0, 0%, 11%);
 }
+footer {
+    padding: 5vw 10vw;
+    background-color: #79ecf6;
+    color: #000000;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a {
+    color: #063f20;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
