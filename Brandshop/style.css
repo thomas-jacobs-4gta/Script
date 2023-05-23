@@ -123,12 +123,14 @@ footer {
 
 footer .flex-container:first-child {
     margin-bottom: 2rem;
+    
 }
 
 footer ul li {
     font-size: 0.8rem;
     line-height: 2;
     list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer ul li:first-child a {
