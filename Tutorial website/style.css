@@ -35,3 +35,7 @@ header li {
     display: inline;
     padding-left: 15px;
 }
+header nav {
+    justify-self: end;
+    align-self: end;
+}
