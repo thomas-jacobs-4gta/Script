@@ -18,6 +18,20 @@ body {
     font-family: "owners-wide", sans-serif;
     line-height: 1;
 }
-svg {
-    width: 30%;
+img {
+    width: 100%;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+header li {
+    display: inline;
+    padding-left: 15px;
 }
