@@ -25,6 +25,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: end;
+    align-items: center;
 }
 .grid-container {
     display: grid;
@@ -34,8 +35,10 @@ header {
 header li {
     display: inline;
     padding-left: 15px;
+    align-items: center;
 }
 header nav {
     justify-self: end;
     align-self: end;
+    align-items: center;
 }
